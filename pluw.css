@@ -5,10 +5,9 @@
 
 :any-link {
   box-shadow: 0 3ch 3ch 0 plum, 0 -3ch 3ch 0 plum;
-  background: plum;
-  color: indigo;
+  background-color: #c6c6c6;
+  color: #313;
 }
-
 
 :any-link:hover {
   background: hotpink; 
@@ -26,6 +25,10 @@
 
 html {
   background: plum;
-  background-image: radial-gradient(mediumpurple, plum);
+  background-image: radial-gradient(darkorange, orange);
   color: indigo;
+}
+
+nav {
+  background-image: conic-gradient(deepskyblue, orange, hotpink, deepskyblue);
 }

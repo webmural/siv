@@ -15,7 +15,7 @@
 }
 
 :hover {
- text-decoration-style: double; 
+  text-decoration-style: double; 
 }
 
 html {
@@ -58,10 +58,11 @@ span {
 }
 
 h1 {
-  font-weight: lighter;
-  text-align: center;
+  all: unset;
   line-height: 1;
   margin: 5vh;
+  text-indent: 10vh;
+  transform: rotate(18deg);
 }
 
 @media (prefers-reduced-motion: no-preference) {
